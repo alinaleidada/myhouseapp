@@ -1,0 +1,23 @@
+
+.forgetpwd{
+    margin-top:100px;
+}
+.gotcode-fat{
+    position: relative;
+}
+.got-authcode{
+ position:absolute;
+ right:6px;
+ z-index:1000;
+ bottom:0;
+}
+.am-number-keyboard-wrapper table tr .am-number-keyboard-item.keyboard-confirm.am-number-keyboard-item-disabled {
+    background-color: #9acd32;
+    color: #fff;
+}
+.am-number-keyboard-wrapper table tr .am-number-keyboard-item.keyboard-confirm {
+    color: #fff;
+    font-size: 21px;
+    background-color: #9acd32;
+    border-bottom: 1PX solid #ddd;
+}

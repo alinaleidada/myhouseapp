@@ -1,0 +1,13 @@
+
+
+.am-badge-dot {
+    position: absolute;
+    transform: translateX(-50%);
+    transform-origin: 0 center;
+    top: -4px;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background: #fff !important;
+    z-index: 10;
+}

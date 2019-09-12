@@ -1,0 +1,10 @@
+.logo{
+    margin-top:40px;
+    height:200px;
+    border-radius: 50%;
+}
+.log-footer{
+    position: fixed;
+    bottom:30px;
+    width:100%;
+}
