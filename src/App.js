@@ -9,23 +9,28 @@ import Addr from './pages/address/Address'
 import Search from './pages/search/Search'
 import Locat from './pages/locations/Locations'
 import Error from './pages/error/Error'//当用户输入不对的hash时，跳转到默认页面
+import store from './store'
+import {Provider}from 'react-redux'//Provider用来分享store里的状态给子组件
+ 
 export default class App extends Component {
     render() {
         return (
-            <div>
-              <HashRouter>
-                 <Switch>
-                     <Route path='/' exact component={Log} ></Route>
-                     <Route path='/reg'  component={Reg} ></Route>
-                     <Route path='/nav'  component={Nav} ></Route>
-                     <Route path='/forg' component={Forgetpwd}></Route>
-                     <Route path='/addr' component={Addr}></Route>
-                     <Route path='/search' component={Search}></Route>
-                     <Route path='/locat' component={Locat}></Route>
-                     <Route component={Error}></Route>
-                    {/*  <Route component={Log}></Route> */}
-                 </Switch>
-              </HashRouter>
+            <div style={{height:'100%'}}>
+                <Provider store={store}>
+                    <HashRouter>
+                        <Switch>
+                            <Route path='/' exact component={Log} ></Route>
+                            <Route path='/reg'  component={Reg} ></Route>
+                            <Route path='/nav'  component={Nav} ></Route>
+                            <Route path='/forg' component={Forgetpwd}></Route>
+                            <Route path='/addr' component={Addr}></Route>
+                            <Route path='/search' component={Search}></Route>
+                            <Route path='/locat' component={Locat}></Route>
+                            <Route component={Error}></Route>
+                            {/*  <Route component={Log}></Route> */}
+                        </Switch>
+                    </HashRouter>
+               </Provider>
             </div>
         )
     }

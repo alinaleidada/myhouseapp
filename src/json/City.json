@@ -1,0 +1,15 @@
+{
+    "hotcity":["北京","上海","广州","深圳","成都"],
+    "allcity":[
+        {"title":"A","onearrcity":["阿坝","安庆"],"bgcolor":"#9acd32"},
+        {"title":"B","onearrcity":["保定","安庆","北京","包头","巴中"],"bgcolor":" "},
+        {"title":"C","onearrcity":["成都","安庆","重庆","长春"],"bgcolor":"nobg"},
+        {"title":"D","onearrcity":["大庆","丹东","东莞","大同","邓州"],"bgcolor":" "},
+        {"title":"E","onearrcity":["鄂尔多斯","恩施"],"bgcolor":" "},
+        {"title":"F","onearrcity":["佛山","阜阳","福安","凤城"],"bgcolor":" "},
+        {"title":"G","onearrcity":["广州","贵阳","桂林","广安"],"bgcolor":" "},
+        {"title":"H","onearrcity":["海口","哈尔滨","呼和浩特","黄石"],"bgcolor":" "},
+        {"title":"J","onearrcity":["济南","嘉兴","济宁","荆门","金华","九江"],"bgcolor":" "},
+        {"title":"Z","onearrcity":["中山","珠海","郑州","株洲","湛江"],"bgcolor":" "}
+    ]
+}

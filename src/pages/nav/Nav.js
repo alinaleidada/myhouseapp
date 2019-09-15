@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { InputItem, WhiteSpace, WingBlank,Toast,TabBar  } from 'antd-mobile'//按需引入ant样式
+import { TabBar  } from 'antd-mobile'//按需引入ant样式
 import './Nav.css'
 import Main from './main/Main'
 import Wechat from './wechat/Wechat'

@@ -79,7 +79,7 @@ export default class Register extends Component {
 
             let reginfo=await reigster(username,password);
             console.log(reginfo.data)
-            if(reginfo.data=='ok'){
+            if(reginfo.data==='ok'){
                 this.props.history.push('/')
             }else{
                 Toast.info('信息错误!!!', 1)

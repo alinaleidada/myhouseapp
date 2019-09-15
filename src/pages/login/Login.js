@@ -19,7 +19,7 @@ export default class Login extends Component {
             <div>
                 {/* logo */}
                 <Flex justify='center'>
-                    <img src={require('../../assets/images/logo.jpg')} className='logo' />
+                    <img src={require('../../assets/images/logo.jpg')} className='logo' alt=""/>
                 </Flex>
 
                 {/* 登录 */}
@@ -73,8 +73,9 @@ export default class Login extends Component {
            //请求
            let reqinfo=await login(username,password);
               console.log(reqinfo)
-            if(reqinfo.data=='ok'){
+            if(reqinfo.data==='ok'){
                 this.props.history.push('/nav')
+                localStorage.setItem("username",username)
             }else{
                 Toast.info('信息错误!!!', 1);
             }

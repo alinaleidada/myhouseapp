@@ -1,0 +1,39 @@
+
+.My img{
+   width:20px;
+   height:20px;
+}
+.my-header{
+    background-color: #9acd32;
+    display:flex;
+    flex-direction: column;
+    color:#fff;
+    padding:10px;
+}
+.header-top{
+    display:flex;
+    justify-content: space-around;
+}
+.header-top img{
+    vertical-align: middle;
+}
+.header-middle{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.XX{display:flex;justify-content: space-around;padding:0 10px;}
+.XX li:not(:last-child){
+    border-right: 1px solid #fff;
+    padding-right: 50px;
+}
+.XX p{
+  text-align: center;
+}
+.Yhlist img{
+    margin-right:8px;
+    vertical-align: middle;
+}
+.my-infolist{padding:10px;}
+.my-infolist img{margin-right:6px;}

@@ -2,7 +2,7 @@
 import axios from 'axios'
 import qs from 'qs'
 
-const ip='http://127.0.0.1:80'//保存ip地址，便于后续维护
+export const ip='http://127.0.0.1:80'//保存ip地址，便于后续维护
 
 //获取用户登录的数据 acc:用户名  pwd:密码
 export function login(username,password){
